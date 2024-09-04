@@ -8,8 +8,8 @@ Python 3.12.5
 
 Clone and install:
 ```
-git clone https://github.com/cianoid/domclick-tg-bot.git
-cd domclick-tg-bot/
+git clone https://github.com/cianoid/simple-tg-bot.git
+cd simple-tg-bot/
 
 python3.12 -m venv venv
 source venv/bin/activate
