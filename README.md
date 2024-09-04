@@ -1,13 +1,19 @@
-# domclick-tg-bot
+# simple-tg-bot
+
+## Requirements
+
+Python 3.12.5
+
+## Launch
 
 Clone and install:
 ```
 git clone https://github.com/cianoid/domclick-tg-bot.git
 cd domclick-tg-bot/
 
-python3.11 -m venv venv
+python3.12 -m venv venv
 source venv/bin/activate
-pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 cp .env.template .env
 ```
@@ -15,4 +21,4 @@ cp .env.template .env
 Fill up .env file with your bot token (you should get it from @BotFather)
 
 Now launch bot with command:
-`python3.11 main.py`
+`python -m app`

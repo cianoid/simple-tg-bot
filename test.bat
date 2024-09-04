@@ -1,0 +1,3 @@
+@ECHO off
+ECHO 42
+ECHO 35
